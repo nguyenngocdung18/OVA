@@ -44,3 +44,7 @@ sử dụng ```nc``` => thành công lấy được shell
 ![image](https://github.com/nguyenngocdung18/OVA/assets/134156226/24d306e6-2afb-45b2-99e9-95455b53f0f5)
 
 ![image](https://github.com/nguyenngocdung18/OVA/assets/134156226/a3354793-012d-4aeb-81a6-424b53bbffe4)
+
+khi thử chạy câu lênh ```grep -r "password" /etc/``` thấy ```/usr/bin/mysqladmin -u root -h app109 password 'new-password'$```
+
+![image](https://github.com/nguyenngocdung18/OVA/assets/134156226/cbab3a5a-c0f7-45c2-ac25-fab760b97ca4)
