@@ -48,3 +48,15 @@ sử dụng ```nc``` => thành công lấy được shell
 khi thử chạy câu lênh ```grep -r "password" /etc/``` thấy ```/usr/bin/mysqladmin -u root -h app109 password 'new-password'$```
 
 ![image](https://github.com/nguyenngocdung18/OVA/assets/134156226/cbab3a5a-c0f7-45c2-ac25-fab760b97ca4)
+
+upload linpeas.sh và chạy câu lệnh ```sh linpeas.sh > linpeas.txt```
+
+![image](https://github.com/nguyenngocdung18/OVA/assets/134156226/0b142bb0-97ae-47d1-9b8e-1a9974a4f1fd)
+
+=> wordpress:Lx5l29XychQY
+
+![image](https://github.com/nguyenngocdung18/OVA/assets/134156226/e2bd609e-bc90-4ef0-a26c-53a1485c2619)
+
+![image](https://github.com/nguyenngocdung18/OVA/assets/134156226/4785baca-ae35-4a15-836a-0932a39be0c4)
+
+=))))))) ta thu được cái thông tin mà ta có rồi, chả có tác dụng gì
