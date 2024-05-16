@@ -34,3 +34,4 @@ có vẻ như máy này có ip là 192.168.199.139 và đang mở 2 port 22, 80
 ![image](https://github.com/nguyenngocdung18/OVA/assets/134156226/954af65b-152d-4202-898a-e0da5ea241ad)
 
 ```wpscan --url http://192.168.199.139/ -P /usr/share/wordlists/rockyou.txt --usernames wordpress```
+## Fuzzing web
