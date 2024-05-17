@@ -19,18 +19,34 @@ có vẻ như máy này có ip là 192.168.199.139 và đang mở 2 port 22, 80
 ## using ffuf 
 ![image](https://github.com/nguyenngocdung18/OVA/assets/134156226/2240e1b4-04a2-45df-b2dd-91ff4153c26e)
 
+nhận thấy list trên chỉ fuzz các tệp tin nên đi thử với các list khác 
+
+![image](https://github.com/nguyenngocdung18/OVA/assets/134156226/68b31ffc-3e13-4213-b2da-654f4a274faf)
+
+![image](https://github.com/nguyenngocdung18/OVA/assets/134156226/4688b0ae-a0b2-446b-b88c-c8ce5faf9286)
+
+![image](https://github.com/nguyenngocdung18/OVA/assets/134156226/53c4ff86-386b-4e59-8b79-84d97a0be6b8)
+
+1 tài khoản có mật khẩu khá lạ so với các user khác: polo:YP1thBg5A8yc
 ## view web
 ![image](https://github.com/nguyenngocdung18/OVA/assets/134156226/c83d199b-0b44-4ef0-8dea-b563c807e50a)
 
 ![image](https://github.com/nguyenngocdung18/OVA/assets/134156226/dd1c4cf4-e937-440b-990c-4096532899b0)
 
 => bản wordpress 6.2.2 
-
+# EXPLOIT
 ## using wpscan
 
 ``` wpscan --url http://192.168.199.139/ -e u,vt,vp```
 
 ![image](https://github.com/nguyenngocdung18/OVA/assets/134156226/954af65b-152d-4202-898a-e0da5ea241ad)
 
-```wpscan --url http://192.168.199.139/ -P /usr/share/wordlists/rockyou.txt --usernames wordpress```
-## Fuzzing web
+user này cũng không thể tìm thấy thêm gì khác có thể khai thác 
+
+## Connect to SSH server
+![image](https://github.com/nguyenngocdung18/OVA/assets/134156226/97e1a833-0b7e-4571-8d1a-4b4126cf7f59)
+
+![image](https://github.com/nguyenngocdung18/OVA/assets/134156226/c65c871b-4d8d-4c4a-92b6-2a72b0a5bf8f)
+
+# PRIVILEGE ESCALATION
+Nhận thấy user này có trong group 4(adm)
