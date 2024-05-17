@@ -2,7 +2,6 @@
 
 ![image](https://github.com/nguyenngocdung18/OVA/assets/134156226/995f22f2-eee8-44b8-8cbb-93407a75209b)
 
-=> có vẻ như 1 user có tên là adm
 # ENUMERATING
 ## Scan IP
 using ```arp-scan + ip range```
