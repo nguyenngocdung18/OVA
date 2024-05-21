@@ -50,3 +50,9 @@ user này cũng không thể tìm thấy thêm gì khác có thể khai thác
 
 # PRIVILEGE ESCALATION
 Nhận thấy user này có trong group 4(adm)
+![image](https://github.com/nguyenngocdung18/OVA/assets/134156226/108e984c-0709-431f-8227-c103902ac08c)
+
+![image](https://github.com/nguyenngocdung18/OVA/assets/134156226/5a851d42-b5d2-473f-a939-58ad29c89d82)
+
+## using john the ripper
+![image](https://github.com/nguyenngocdung18/OVA/assets/134156226/cc4ebc75-1ce3-4c04-a44d-7bc0ca232493)
