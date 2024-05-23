@@ -35,14 +35,6 @@ nhận thấy list trên chỉ fuzz các tệp tin nên đi thử với các lis
 
 => bản wordpress 6.2.2 
 # EXPLOIT
-## using wpscan
-
-``` wpscan --url http://192.168.199.139/ -e u,vt,vp```
-
-![image](https://github.com/nguyenngocdung18/OVA/assets/134156226/954af65b-152d-4202-898a-e0da5ea241ad)
-
-user này cũng không thể tìm thấy thêm gì khác có thể khai thác 
-
 ## Connect to SSH server
 ![image](https://github.com/nguyenngocdung18/OVA/assets/134156226/97e1a833-0b7e-4571-8d1a-4b4126cf7f59)
 
@@ -56,3 +48,20 @@ Nhận thấy user này có trong group 4(adm)
 
 ## using john the ripper
 ![image](https://github.com/nguyenngocdung18/OVA/assets/134156226/cc4ebc75-1ce3-4c04-a44d-7bc0ca232493)
+
+Không thu được gì từ password này. 
+
+Kiểm tra các dịch vụ đang chạy
+
+![image](https://github.com/nguyenngocdung18/OVA/assets/134156226/d7eef2d3-acf6-4b1b-92b7-c3412f08f356)
+
+thấy có mysql, tìm theo keyword trong /var/log
+![image](https://github.com/nguyenngocdung18/OVA/assets/134156226/f5f3ae4f-2416-49c1-8c67-439a1e999477)
+
+root:wD1sGPJXDLwn 
+
+![image](https://github.com/nguyenngocdung18/OVA/assets/134156226/632c6aef-1fdf-42d2-8ba2-7323cffedc5a)
+
+=> root flag
+
+## Done!!!
